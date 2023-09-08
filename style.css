@@ -263,6 +263,9 @@ section .title::after{
 }
 
 /* services section styling */
+#process-color{
+  color: yellow;
+}
 .services, .teams{
     color:#fff;
     background: #111;
@@ -270,10 +273,12 @@ section .title::after{
 .services .title::before,
 .teams .title::before{
     background: #fff;
+    width: 250px;
 }
 .services .title::after,
 .teams .title::after{
     background: #111;
+    color: white;
     content: "How Does It Work?";
 }
 .services .serv-content .card{
