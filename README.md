@@ -1,3 +1,2 @@
-My Website Portfolio
-
-By Javier Delgado
+# My Website Portfolio
+## By Javier Delgado
