@@ -232,7 +232,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 .about .about-content .right{
     width: 55%;
@@ -285,7 +285,7 @@ section .title::after{
     content: "How Does It Work?";
 }
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(33% - 10px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -294,7 +294,8 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: rgb(0,3,64);
+    background: rgb(33,111,148);
+    transform: scaleY(1.05);
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -304,16 +305,19 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: rgb(0,3,64);
+    color: rgb(33,111,148);
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #fff;
+    color: #222;
 }
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.hire-me-link{
+  color: rgb(234,250,112);
 }
 
 /* contact section styling */
