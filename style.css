@@ -119,16 +119,18 @@ section .title::after{
 .navbar .menu li a{
     display: block;
     color: #fff;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: yellow;
+    color: rgb(234,250,112);
+    transform: scale(1.10);
 }
-.navbar.sticky .menu li a:hover{
-    color: #fff;
+.navbar .sticky .menu li a:hover{
+    color: rgb(234,250,112);
+    transform: scale(1.10);
 }
 
 /* menu btn styling */
@@ -142,7 +144,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(0,3,64);
+    background: rgb(33,111,148);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -198,7 +200,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: rgb(0,3,64);
+    color: rgb(234,250,112);
     font-weight: 500;
 }
 .home .home-content a{
@@ -215,7 +217,8 @@ section .title::after{
 }
 .home .home-content a:hover{
     color: rgb(0,3,64);
-    background: none;
+    background: #fff;
+    transform: scaleX(1.05);
 }
 
 /* about section styling */
@@ -264,7 +267,7 @@ section .title::after{
 
 /* services section styling */
 #process-color{
-  color: yellow;
+  color: rgb(234,250,112);
 }
 .services, .teams{
     color:#fff;
@@ -408,6 +411,9 @@ section .title::after{
   color: rgb(0,3,64);
   background: none;
 }
+.mail-link {
+  color: black;
+}
 
 /* footer section styling */
 footer{
@@ -424,7 +430,7 @@ footer span a:hover{
     text-decoration: underline;
 }
 .cc-name {
-  color: yellow;
+  color: rgb(234,250,112);
 }
 
 .contact-emoji {
