@@ -318,6 +318,7 @@ section .title::after{
 }
 .hire-me-link{
   color: rgb(234,250,112);
+  text-decoration: underline;
 }
 
 /* contact section styling */
